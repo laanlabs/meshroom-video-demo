@@ -33,7 +33,7 @@
             "inputs": {
                 "viewpoints": [],
                 "intrinsics": [],
-                "sensorDatabase": "D:\\Meshroom-2019.1.0\\aliceVision\\share\\aliceVision\\cameraSensors.db",
+                "sensorDatabase": "{{MESHROOM_BASE}}\\aliceVision\\share\\aliceVision\\cameraSensors.db",
                 "defaultFieldOfView": 45.0,
                 "groupCameraFallback": "folder",
                 "verboseLevel": "info"
@@ -91,7 +91,7 @@
                 "featuresFolders": [
                     "{FeatureExtraction_1.output}"
                 ],
-                "tree": "D:\\Meshroom-2019.1.0\\aliceVision\\share\\aliceVision\\vlfeat_K80L3.SIFT.tree",
+                "tree": "{{MESHROOM_BASE}}\\aliceVision\\share\\aliceVision\\vlfeat_K80L3.SIFT.tree",
                 "weights": "",
                 "minNbImages": 200,
                 "maxDescriptors": 500,
